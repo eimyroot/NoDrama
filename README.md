@@ -1,5 +1,7 @@
 # NoDrama
 
+> **Portfolio status:** Pre-production product implementation. Generated text is drafting assistance and remains subject to user review.
+
 NoDrama is a commercial SaaS product for drafting socially safer replies, apologies, refusals, rescheduling messages, and related everyday communication.
 
 The product is designed to reduce overexplaining, awkwardness, and risky wording while keeping the user in control of the final message.
