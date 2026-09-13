@@ -1,24 +1,25 @@
-# NoDrama
+<div align="center">
+  <h1>NoDrama</h1>
+  <p><strong>AI-assisted drafting for clearer everyday communication, with the user staying in control of the final message.</strong></p>
+  <p>
+    <img alt="Next.js" src="https://img.shields.io/badge/Next.js-TypeScript-000000?logo=nextdotjs">
+    <img alt="Supabase" src="https://img.shields.io/badge/data-Supabase-3ECF8E?logo=supabase&logoColor=white">
+    <img alt="Stripe" src="https://img.shields.io/badge/payments-Stripe-635BFF?logo=stripe&logoColor=white">
+    <img alt="Status" src="https://img.shields.io/badge/status-pre--production-f59e0b">
+  </p>
+</div>
 
 > **Portfolio status:** Pre-production product implementation. Generated text is drafting assistance and remains subject to user review.
 
-NoDrama is a commercial SaaS product for drafting socially safer replies, apologies, refusals, rescheduling messages, and related everyday communication.
+NoDrama helps turn awkward situations into clearer drafts for replies, apologies, refusals and rescheduling without pretending that an AI draft should be sent blindly.
 
-The product is designed to reduce overexplaining, awkwardness, and risky wording while keeping the user in control of the final message.
-
-## Product flow
-
-```text
-user situation
-→ validation and safety rules
-→ prompt/orchestration layer
-→ AI-assisted draft
-→ tone/refinement options
-→ user review and copy
-→ usage/credit accounting
+```mermaid
+flowchart LR
+    A[User situation] --> B[Validation & safety]
+    B --> C[AI-assisted draft]
+    C --> D[Tone & refinement]
+    D --> E[User review]
 ```
-
-Generated text is drafting assistance. Users remain responsible for reviewing and deciding whether to send or rely on an output.
 
 ## Current architecture
 
